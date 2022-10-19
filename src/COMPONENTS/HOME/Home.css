@@ -1,0 +1,25 @@
+.container {
+  max-width: 1280px;
+  width: 1280px;
+}
+
+.quizContainer {
+  margin: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0px 15px;
+    max-width: auto;
+    width: auto;
+  }
+  .quizContainer {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}

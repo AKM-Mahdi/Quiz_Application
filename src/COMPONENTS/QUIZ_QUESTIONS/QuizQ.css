@@ -1,0 +1,19 @@
+.questionsTopic {
+  margin-top: 30px;
+  display: flex;
+  background-color: #eee;
+  align-items: center;
+  border-radius: 5px;
+  padding: 8px;
+}
+.left img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80px;
+  background-color: red;
+  border-radius: 5px;
+}
+.right {
+  padding-left: 20px;
+}

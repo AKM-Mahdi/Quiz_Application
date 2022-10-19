@@ -1,0 +1,11 @@
+.StatisticsHeader {
+  margin-top: 30px;
+  padding: 20px 0px;
+  /* text-align: center; */
+}
+.StatisticsHeader p {
+  padding: 10px 0px;
+}
+.barChart {
+  width: 50px;
+}

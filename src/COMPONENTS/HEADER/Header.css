@@ -1,0 +1,40 @@
+.active {
+  color: var(--theme-one);
+}
+.inactive {
+  color: white;
+}
+.logo h3 {
+  color: var(--primary-color);
+}
+header {
+  background-color: var(--bg-color);
+  padding: 10px 0px;
+}
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-item {
+  font-size: 15px;
+  /* color: var(--primary-color); */
+}
+.menu {
+  display: flex;
+  justify-content: right;
+}
+ul li {
+  padding: 0px 15px;
+}
+
+@media (max-width: 768px) {
+  .logo h3 {
+    font-size: 13px;
+    color: var(--primary-color);
+  }
+  /* nav menu  */
+  .menu-item {
+    font-size: 13px;
+  }
+}
